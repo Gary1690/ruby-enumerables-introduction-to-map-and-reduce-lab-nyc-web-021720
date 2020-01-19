@@ -33,6 +33,7 @@ def reduce_to_total(source_array, starting_point=0)
   for i in starting_point...source_array.length
     total += source_array[i]
   end
+  total
 end
 def reduce_to_all_true(source_array)
 
