@@ -7,7 +7,11 @@ def map_to_negativize(source_array)
   result
 end
 def map_to_no_change(source_array)
-
+  result=[]
+  source_array.each do |element|
+    result<<element
+  end
+  result
 end
 def map_to_double(source_array)
 
