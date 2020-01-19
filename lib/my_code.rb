@@ -14,7 +14,11 @@ def map_to_no_change(source_array)
   result
 end
 def map_to_double(source_array)
-
+  result=[]
+  source_array.each do |element|
+    result<<element*2
+  end
+  result
 end
 def map_to_square(source_array)
 
