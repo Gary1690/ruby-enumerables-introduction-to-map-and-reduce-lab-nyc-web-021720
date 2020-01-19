@@ -1,6 +1,10 @@
 # My Code here....
 def map_to_negativize(source_array)
-
+  result=[]
+  source_array.each do |element|
+    result<<element*-1
+  end
+  result
 end
 def map_to_no_change(source_array)
 
